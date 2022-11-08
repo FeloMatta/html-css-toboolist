@@ -2,4 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(154, 174, 192);
 }
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    background-color: white;
+ } 
+
+#logo{
+    background-color: white;
+}
+
+
