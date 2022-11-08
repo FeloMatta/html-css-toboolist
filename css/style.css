@@ -2,17 +2,138 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(154, 174, 192);
+    border-radius: 10px;
+}
+
+/* background color della pagina */
+body{
+    background-color: #f6f8f9;
+}
+
+header{
+    background-color: white;  
 }
 
 h1{
     font-family: 'Roboto', sans-serif;
     display: inline-block;
-    background-color: white;
  } 
 
 #logo{
+    
+}
+
+/* inizio contenuto main */
+
+.container{
+    text-align: center-left;
+    width: 60%;
+    margin: 30px auto 0;
     background-color: white;
+}
+
+#task-button1{
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: rgba(71,173,241,255);
+    border-color: rgba(71,173,241,255);
+}
+
+#task-button2{
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,255);
+    border-color: grey;
+}
+
+.text-color1{
+    color: white;
+}
+
+.text-color2{
+    color: grey;
+}
+
+.task-title{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    display: inline-block;
+}
+
+.task-title::before{
+    content: "\25BC";
+}
+
+.task-title2:before{
+    content: "\2717";
+}
+
+p::before{
+    content: "\1F5F8";
+    border-radius: 50%;
+    color: #6dc5b0;
+    border: 1px solid #6dc5b0;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+p.croce::before{
+    content: "\2717";
+    border-radius: 50%;
+    color: #eb5952;
+    border: 1px solid #eb5952;
+}
+
+.azzurro{
+    background-color: #45abe9;
+    border-radius: 15px;
+    padding: 7px;
+    color: white;
+}
+
+.viola{
+    background-color: #9c72e4;
+    border-radius: 15px;
+    padding: 7px;
+    color: white;
+}
+
+.verde{
+    background-color: #64c0a9;
+    border-radius: 15px;
+    padding: 7px;
+    color: white;
+}
+
+.giallo{
+    background-color: #f29e33;
+    border-radius: 15px;
+    padding: 7px;
+    color: white;
+}
+
+.rosa{
+    background-color: #d863a0;
+    border-radius: 15px;
+    padding: 7px;
+    color: white;
+}
+
+.light-verde{
+    background-color: #b0c926;
+    border-radius: 15px;
+    padding: 7px;
+    color: white;
+}
+
+section{
+    padding: 30px;
 }
 
 
